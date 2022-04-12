@@ -23,6 +23,8 @@ export const web3InitialState: Web3ProviderState = {
   web3Provider: null,
   address: null,
   network: null,
+  connect: null,
+  disconnect: null,
 }
 
 export type Web3Action =
